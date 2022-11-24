@@ -8,7 +8,7 @@
 
 [rewrite_local]
 
-^https:\/\/cubox\.pro\/c\/api\/userInfo url script-response-body https://raw.githubusercontent.com/jichou520/happy/main/Cubox.js
+^https:\/\/cubox\.pro\/c\/api\/userInfo url script-response-body https://raw.githubusercontent.com/jichou520/happy/main/Cubox.js?token=GHSAT0AAAAAAB3N7B6RASTDQ6RCP7EVOBIAY37QJBQ
 
 [mitm] 
 
