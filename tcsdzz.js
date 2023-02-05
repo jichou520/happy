@@ -62,7 +62,7 @@ objc = {
     "rank" : 25,
     "protect_card" : 0,
     "skill_info" : {
-      "skill_level" : 100
+      "skill_level" : 50
     },
     "endless_max_length" : 121855,
     "limit_game_flag" : 1,
