@@ -36,7 +36,7 @@ hostname = ios.xiezhenge.com
 QuantumultX
 ------------------------------------------
 [rewrite_local]
-^https\:\/\/ios\.xiezhenge\.com\/user url script-request-header https://raw.githubusercontent.com/Sliverkiss/GoodNight/master/Script/sxios.js
+^https\:\/\/ios\.xiezhenge\.com\/user url script-request-header https://github.com/jichou520/happy/blob/main/sxios.js
 
 [mitm]
 hostname =ios.xiezhenge.com
