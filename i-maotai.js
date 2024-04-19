@@ -44,10 +44,10 @@ cron "17 9 * * *" script-path=https://raw.githubusercontent.com/FoKit/Scripts/ma
 hostname = app.moutai519.com.cn
 
 [rewrite_local]
-^https:\/\/app\.moutai519\.com\.cn\/xhr\/front\/mall\/message\/unRead\/query url script-request-header https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/i-maotai.js
+^https:\/\/app\.moutai519\.com\.cn\/xhr\/front\/mall\/message\/unRead\/query url script-request-header https://github.com/jichou520/happy/blob/main/i-maotai.js
 
 [task_local]
-17 9 * * * https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/i-maotai.js, tag=i 茅台, enabled=true
+17 9 * * * https://github.com/jichou520/happy/blob/main/i-maotai.js, tag=i 茅台, enabled=true
 
 ------------------ Stash 配置 -----------------
 
@@ -81,7 +81,7 @@ const zeroDate = (nowDate - (nowDate % 86400) - 3600 * 8) * 1000;  // 今日零�
 let productInfo = [], message = '', CookieArr = [], Cookie = '', DeviceID = '';
 
 let MT_PROVINCE = $.getdata('MT_PROVINCE') || '广东省';
-let MT_CITY = $.getdata('MT_CITY') || '广州市';
+let MT_CITY = $.getdata('MT_CITY') || '深圳市';
 let MT_DISTRICT = $.getdata('MT_DISTRICT') || '';
 let MT_ITEM_BLACK = $.getdata('MT_ITEM_BLACK') || '2478|10056';
 let MT_TOKENS = $.getdata('MT_TOKENS') || '';
